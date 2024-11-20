@@ -65,52 +65,64 @@ nav ul  li:hover {
     background-size: cover;
     text-align: center;
     height: 400px;
-    padding: 100px 20px;
+   padding: 45px;
     margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
 }
 #CTA p{
     color: var(--color-secundario-);
 }
 #CTA button{
     background-color: transparent;
-    color: white;
+
     border: 2px solid white;
     padding: 10px 15px;
     margin: 10px;
-    color: var(--color-secundario-);
+    color: #333;
     cursor: pointer;
     transition: 0.3s;
 }
 
-button :hover{
-    background-color: black;
-    transform: scale(1,1);
+
+.text-sobreMi{
+ display: flex;
+justify-content: center;
+ align-items: center;
+
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 0;
+   
+}
+.boton1:hover{
+  background-color: var(--color-secundario-);
+ border-radius: 15px;
+  color: #e3d9e4;
 }
 
 #sobreMi {
     display: flex;
-    flex-direction: column; /* Por defecto en móviles */
+    flex-direction: column; 
     align-items: center;
     text-align: center;
     gap: 1rem;
     padding: 1rem;
     width: 100%;
-    max-width: 375px; /* Tamaño típico de iPhone SE */
+    max-width: 375px;
     margin: 0 auto;
-    background-color: #f9f9f9; /* Fondo suave */
+    background-color: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un diseño moderno */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Imagen */
+
 #sobreMi figure {
     width: 150px;
     height: 150px;
     margin: 0;
-    border-radius: 50%; /* Imagen redonda */
+    border-radius: 50%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -120,7 +132,7 @@ button :hover{
 #sobreMi img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Evita la distorsión de la imagen */
+    object-fit: cover;
 }
 
 /* Texto */
@@ -147,8 +159,9 @@ button :hover{
     justify-content: space-evenly; 
 }
 #habilidad {
-    width: 100%;
-    margin-bottom: 300px;
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 60px;
     transition: 0.5s;
     text-align: center;
     background-color: #f2f2f2;
@@ -159,6 +172,9 @@ button :hover{
 #habilidad h2 {
     margin-bottom: 20px;
     color: black;     
+}
+#titulo{
+padding: 20px;
 }
 
 
@@ -193,6 +209,103 @@ button :hover{
 .carousel-item {
     min-width: 100%;
     transition: transform 0.5s ease;
+}
+
+footer {
+    background: rgb(70, 70, 70);
+    padding: 20px 0;
+    padding-top: 30px;
+    overflow: hidden; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.partFooter {
+    width: auto;
+    text-align: center;
+}
+
+.partFooter img {
+    width: 60%;
+}
+
+.partFooter h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    background-color: #d03d3d;
+    padding: 5px;
+    border: 1px solid #d03d3d;
+    border-radius: 5px;
+}
+
+.contact {
+    margin: 10px;
+    display: block;
+    text-align: left;
+}
+
+.contact > i {
+    float: left;
+    margin: 0 0 0 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+    text-align: center;
+    align-items: center;
+}
+
+.contact > p {
+    margin-left: 50px;
+    align-items: center;
+    line-height: 28px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.partFooter > a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.partFooter > a:hover {
+    color: #fff;
+    background-color: #cf6c6c;
+    border-color: #cf6c6c;
+    transition: all ease-in-out .6s;
+    border-radius: 5px;
+}
+
+.social-media > a > i {
+    font-size: 20px;
+    display: inline-block; 
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%; 
+    width: 38px; 
+    height: 38px; 
+    line-height: 36px; 
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: all ease-in-out .3s;
+    margin-right: 5px;
+}
+
+.social-media > a > i:hover {
+    color: #fff;
+    background-color: #d03d3d;
+    border-color: #d03d3d;
 }
 
 
