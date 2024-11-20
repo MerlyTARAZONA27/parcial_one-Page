@@ -51,7 +51,7 @@ body{
 }
 
 #CTA{
-    background-image: url(/image/perfil\ .jpg);
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-20\ at\ 1.41.09\ PM.jpeg);
     background-position: center ;
     background-size: cover;
     text-align: center;
@@ -60,9 +60,7 @@ body{
     margin-top: 60px;
    
 }
-/*#CTA p{
-    color: #333;
-}*/
+
 #CTA button{
     background-color: transparent;
 
@@ -75,13 +73,7 @@ body{
 }
 
 
-/*.text-sobreMi{
- display: flex;
-justify-content: center;
- align-items: center;
- color: #333;
 
-}*/
 .botones{
     display: flex;
     justify-content: space-between;
@@ -216,7 +208,7 @@ padding: 20px;
     border-radius: 20px;
     margin: 14px;
     transition: transform 0.5s ease;
-    background-image: url(/image/WhatsApp\ Image\ 2024-11-20\ at\ 1.07.51\ PM.jpeg);
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-20\ at\ 1.07.51\ PM.jpeg);
     background-size: cover;
     margin-bottom: 5%;
 }
@@ -245,7 +237,7 @@ padding: 20px;
     border-radius: 20px;
     margin: 14px;
     transition: transform 0.5s ease;
-    background-image: url(/image/WhatsApp\ Image\ 2024-11-20\ at\ 12.56.10\ PM.jpeg);
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-20\ at\ 12.56.10\ PM.jpeg);
     background-size: cover;
     margin-bottom: 5%;
 }
@@ -272,7 +264,7 @@ padding: 20px;
     border-radius: 20px;
     margin: 14px;
     transition: all 300ms;
-    background-image: url(/image/WhatsApp\ Image\ 2024-11-20\ at\ 12.57.21\ PM.jpeg);
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-20\ at\ 12.57.21\ PM.jpeg);
     background-size: cover;
     margin-bottom: 5%;
 }
