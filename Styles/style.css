@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color--primario : #f0ede7;
+    --color-secundario-: #D7a5a5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: var(--color--primario);
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul a{
+    text-decoration: none;
+}
+
+nav ul li {
+    color: #9b249f;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 12px 15px;
+    border-radius: 10px;
+}
+
+nav ul  li:hover {
+    color: #fff;
+    background-color: #3d7ad0;
+    border-color: #e7e0e0;
+    transition: all ease-in-out .6s;
+}
+
+#CTA{
+    background-image: url(/image/perfil\ .jpg);
+    background-position: center ;
+    background-size: cover;
+    text-align: center;
+    height: 400px;
+    padding: 100px 20px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#CTA p{
+    color: var(--color-secundario-);
+}
+#CTA button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 15px;
+    margin: 10px;
+    color: var(--color-secundario-);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button :hover{
+    background-color: black;
+    transform: scale(1,1);
+}
+
+#sobreMi {
+    display: flex;
+    flex-direction: column; /* Por defecto en móviles */
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 375px; /* Tamaño típico de iPhone SE */
+    margin: 0 auto;
+    background-color: #f9f9f9; /* Fondo suave */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un diseño moderno */
+}
+
+/* Imagen */
+#sobreMi figure {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    border-radius: 50%; /* Imagen redonda */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobreMi img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Evita la distorsión de la imagen */
+}
+
+/* Texto */
+#textos {
+    text-align: justify;
+    padding: 0 1rem;
+}
+
+#textos h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#textos p {
+    font-size: 0.9rem;
+    color: #5d6678;
+    line-height: 1.5;
+}
+#habilidades {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin-top: 50px;
+    justify-content: space-evenly; 
+}
+#habilidad {
+    width: 100%;
+    margin-bottom: 300px;
+    transition: 0.5s;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#habilidad h2 {
+    margin-bottom: 20px;
+    color: black;     
+}
+
+
+
+
+#habilidad:hover {
+    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+    color: #fff;
+    background: #d03d3d;
+    transition: .5s;
+}
+
+
+
+#Formación {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#Formación h2 {
+    text-align: center;
+}
+
+
+/* Carrusel (Ejemplo básico, puedes personalizarlo) */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-item {
+    min-width: 100%;
+    transition: transform 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
